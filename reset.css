@@ -67,16 +67,16 @@ li a:hover {
 
 /* Main Body Styles */
 
-h3 {
+h1 {
 	text-align: center; 
 	color: rgb(33, 33, 33);
 }
 
-p {
-	font-size: 1em;
-	font-style: italic;
+article p {
+	font-family: Verdana;
+	font-size: 1.1em;
+	color: rgb(33, 33, 33);
 }
-
 article#main {
 	margin: 20px 0px 20px 20px;
 	display:-webkit-flex;
@@ -93,19 +93,6 @@ aside {
 	display: flex;
 	-webkit-align-items: center;
 	align-items: center;
-}
-
-div.polaroid {
-  width: 80%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-aside img {width: 100%}
-
-div.container {
-  text-align: center;
-  padding: 10px 20px;
 }
 
 footer {
