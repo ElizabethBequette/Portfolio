@@ -9,32 +9,39 @@
 
 /* Layout used with all devices */
 
-img.img {
+img.GIT {
 	width: 100%;
-}
-
-img.img:hover {
-	-moz-box-shadow: 0 0 5px 5px #666;
-    -webkit-box-shadow: 0 0 5px 5px #666;
-    box-shadow: 0 0 5px 5px #666;
-}
-
-figcaption a {
-	text-decoration: none;
-	color: rgb(33, 33, 33);	
-}
-  
-  figcaption a:hover {
-	background-color: rgba(255, 255, 255, 0.3);
-	color: rgb(67, 102, 85);
 }
 
 div.grid {
 	display: grid;
 }
 
+p {
+	font-family: Verdana;
+	color: rgb(33, 33, 33);
+	text-align: justify;
+	line-height: 1.8;
+	margin: 20px 0px 20px 20px;
+	display:-webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	width: 95%;
+	padding: 10px;
+}
+
+ p a {	 
+	text-decoration: none;
+	color: rgb(33, 33, 33);
+}
+
+p a:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+	color: rgb(67, 102, 85);
+}
+
 figure.polaroid {
-   width: 65%;
    background-color: white;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    float: left;
@@ -46,13 +53,20 @@ figure.polaroid {
    margin-right: auto;
 }
 
-
-
-figcaption.container {
+div.container {
   text-align: center;
   padding: 10px 20px;
   font-family: Courier;
-  text-transform: 
 }
 
-	
+figure.polaroid a:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+figure.container img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
