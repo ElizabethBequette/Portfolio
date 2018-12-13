@@ -14,6 +14,8 @@ html {
 	background: white url("background.jpg") no-repeat fixed center;
 	background-size: cover;
 }
+
+/* Lauren helped me organize the body styles */
 body {
    margin: 0;
    padding: 0;
@@ -106,7 +108,6 @@ aside {
 	align-items: center;
 }
 
-
 /* Footer Styles */
 
 footer {
@@ -127,5 +128,13 @@ footer {
   
   /* Mobile Devices */
   
-  
+  @media only screen and (max-width: 640px) {
+	
+	html {
+		width: 50%;
+		height: 50%;
+	}
+
+
+}
   

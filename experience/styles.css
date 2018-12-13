@@ -1,1 +1,70 @@
- 
+  @charset "uft-8";
+
+/*
+	Created by: Liz Bequette
+	Basic page layout.
+	
+	background image from: Pixabay.com
+*/
+
+div.grid {display: grid;}
+
+h3 { 
+	text-align: center; 
+	color: rgb(33, 33, 33);
+}
+
+p {
+	font-family: Verdana;
+	color: rgb(33, 33, 33);
+	text-align: justify;
+	line-height: 1.8;
+	margin: 20px 0px 20px 20px;
+	display:-webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	width: 95%;
+	padding: 10px;
+}
+
+ p a {	 
+	text-decoration: none;
+	color: rgb(33, 33, 33);
+}
+
+p a:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+	color: rgb(67, 102, 85);
+}
+
+figure.polaroid {
+   background-color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   float: left;
+   padding: 5px;
+   position: relative;
+   margin: 10px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  font-family: Courier;
+}
+
+figure.polaroid a:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+figure.polaroid img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
